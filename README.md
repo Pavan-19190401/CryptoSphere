@@ -1,6 +1,11 @@
 # CryptoSphere 🌐🚀
 ### Real-Time Cryptocurrency Marketplace & Analytics Platform
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-CryptoSphere-38bdf8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pavan-19190401.github.io/CryptoSphere/)
+[![GitHub](https://img.shields.io/badge/GitHub-Pavan--19190401-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pavan-19190401/CryptoSphere)
+
+**Live Deployment:** [https://pavan-19190401.github.io/CryptoSphere/](https://pavan-19190401.github.io/CryptoSphere/)
+
 **CryptoSphere** is a modern, high-performance cryptocurrency intelligence and marketplace platform engineered by **Vennu Manikanta Pavan**. Built from the ground up, the platform features real-time cryptocurrency data streaming, dynamic market dominance tracking, TradingView charting integration, and an ultra-smooth macOS-inspired magnetic physics Dock navigation bar.
 
 ---
@@ -20,7 +25,7 @@
 
 ## ✨ Key Features
 
-- **macOS Magnetic Dock Navbar:** Interactive navigation bar built with raised-cosine falloff curves, integral neighbour displacement, spring pointer tracking, floating tooltips, and click bounce animations.
+- **macOS Magnetic Dock Navbar:** Interactive navigation bar built with raised-cosine falloff curves, integral neighbour displacement, spring pointer tracking, and seamless magnification physics.
 - **Live Market Data:** Real-time cryptocurrency prices, global volume, market cap change percentages, and BTC/ETH dominance via CoinGecko API.
 - **Interactive TradingView Charts:** Professional-grade technical charting widgets with live candles, volume, and indicators.
 - **Trending Assets & NFTs:** Top trending coins and non-fungible tokens updated with rank change indicators.
