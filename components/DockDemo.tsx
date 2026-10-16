@@ -78,34 +78,6 @@ export default function DockDemo() {
       icon: <span className="text-xl">👨‍💻</span>,
       onSelect: () => setOpenApp("Developer Profile"),
     },
-    {
-      id: "github",
-      label: "GitHub @Pavan-19190401",
-      href: "https://github.com/Pavan-19190401",
-      icon: <span className="text-xl">🐙</span>,
-      onSelect: () => setOpenApp("GitHub"),
-    },
-    {
-      id: "linkedin",
-      label: "LinkedIn Profile",
-      href: "https://linkedin.com/in/manikanta-pavan-vennu1906",
-      icon: <span className="text-xl">💼</span>,
-      onSelect: () => setOpenApp("LinkedIn"),
-    },
-    {
-      id: "email",
-      label: "Email Manikanta",
-      href: "mailto:manikantapavanv@gmail.com",
-      icon: <span className="text-xl">✉️</span>,
-      onSelect: () => setOpenApp("Email"),
-    },
-    {
-      id: "phone",
-      label: "+91 7396870319",
-      href: "tel:+917396870319",
-      icon: <span className="text-xl">📞</span>,
-      onSelect: () => setOpenApp("Phone"),
-    },
   ];
 
   return (
