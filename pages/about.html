@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/images/logo-sphere.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>CryptoSphere | About Developer & Platform</title>
+</head>
+
+<body>
+
+    <div class="overlay">
+        <button id="closeMenu" aria-label="Close Menu"><i class="ri-close-circle-line"></i></button>
+
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="charts.html">Charts</a>
+            <a href="search.html">Search</a>
+            <a href="about.html" class="active">About Developer</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/Pavan-19190401" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ri-github-line"></i></a>
+            <a href="https://linkedin.com/in/manikanta-pavan-vennu1906" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+            <a href="mailto:manikantapavanv@gmail.com" aria-label="Email"><i class="ri-mail-line"></i></a>
+            <a href="tel:+917396870319" aria-label="Phone"><i class="ri-phone-line"></i></a>
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        <div class="global">
+            <p>Coins: <b id="coins-count">N/A</b></p>
+            <p>Exchanges: <b id="exchanges-count">N/A</b></p>
+            <p>Market Cap: <span><b id="marketCap">N/A</b> <span id="marketCapChange">N/A <i
+                            class="ri-arrow-down-s-fill"></i></span></span></p>
+            <p>24H Vol: <b id="volume">N/A</b></p>
+            <p>Dominance: <b id="dominance">BTC N/A% - ETH N/A%</b></p>
+        </div>
+
+        <nav>
+            <div class="left-section">
+                <button id="openMenu" aria-label="Open Menu"><i class="ri-menu-line"></i></button>
+                <a href="../index.html" class="logo">
+                    <img src="../assets/images/logo-sphere.png" alt="CryptoSphere Logo" class="logo-img">
+                    <span class="logo-title">Crypto<span class="brand-accent">Sphere</span></span>
+                </a>
+            </div>
+
+            <!-- macOS Smooth Dock Navigation -->
+            <div class="dock-nav-wrapper">
+                <div class="dock-nav" aria-label="CryptoSphere Dock Navigation">
+                    <div class="dock-bg"></div>
+                    <div class="dock-track" role="toolbar">
+                        <a href="../index.html" class="dock-item" data-id="home" aria-label="Home">
+                            <i class="ri-home-5-line"></i>
+                            <span class="dock-dot"></span>
+                        </a>
+                        <a href="charts.html" class="dock-item" data-id="charts" aria-label="Market Charts">
+                            <i class="ri-line-chart-line"></i>
+                            <span class="dock-dot"></span>
+                        </a>
+                        <a href="search.html" class="dock-item" data-id="search" aria-label="Search Assets">
+                            <i class="ri-search-2-line"></i>
+                            <span class="dock-dot"></span>
+                        </a>
+                        <a href="about.html" class="dock-item active" data-id="about" aria-label="About Developer">
+                            <i class="ri-user-star-line"></i>
+                            <span class="dock-dot"></span>
+                        </a>
+                        <a href="https://github.com/Pavan-19190401" target="_blank" rel="noopener noreferrer" class="dock-item" data-id="github" aria-label="GitHub @Pavan-19190401">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/manikanta-pavan-vennu1906" target="_blank" rel="noopener noreferrer" class="dock-item" data-id="linkedin" aria-label="LinkedIn Profile">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="mailto:manikantapavanv@gmail.com" class="dock-item" data-id="mail" aria-label="Send Email">
+                            <i class="ri-mail-send-fill"></i>
+                        </a>
+                        <a href="tel:+917396870319" class="dock-item" data-id="phone" aria-label="Call Developer">
+                            <i class="ri-phone-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <form class="search" id="searchForm">
+                    <i class="ri-search-line"></i>
+                    <input type="text" id="searchInput" placeholder="Search for an asset..." required
+                        autocomplete="off">
+                </form>
+                <i id="theme-toggle" class="ri-sun-line" title="Toggle Theme"></i>
+            </div>
+        </nav>
+
+        <div class="about-container">
+            <div class="info">
+                <h3>The CryptoSphere Story</h3>
+                <p>
+                    Welcome to <strong>CryptoSphere</strong>, an advanced real-time cryptocurrency marketplace and analytics platform engineered by <strong>Vennu Manikanta Pavan</strong>.
+                    <br><br>
+                    <strong>About The Developer:</strong><br>
+                    I am a B.Tech CSE (Artificial Intelligence &amp; Machine Learning) undergraduate at CMR Institute of Technology, Hyderabad (2022 – Present). With strong fundamentals in full-stack web engineering, algorithms, and applied machine learning, I architected CryptoSphere to bridge real-time blockchain financial metrics with high-performance, responsive UI physics.
+                    <br><br>
+                    <strong>Platform Capabilities:</strong><br>
+                    • Live price intelligence and ticker feeds via CoinGecko API.<br>
+                    • Interactive TradingView charting integration with real-time technical indicators.<br>
+                    • Comprehensive market cap rankings, leading crypto exchanges, and Bitcoin treasury holder analytics.<br>
+                    • Fluid macOS-inspired magnetic physics dock navigation with smooth spring curves and responsive theme switching.<br>
+                    <br>
+                    <strong>Contact &amp; Location:</strong> Hyderabad, India | Phone: +91 7396870319 | Email: manikantapavanv@gmail.com
+                </p>
+                <div class="buttons">
+                    <a href="https://github.com/Pavan-19190401" target="_blank" rel="noopener noreferrer" class="primary-btn"><i class="ri-github-fill"></i> GitHub Profile</a>
+                    <a href="https://linkedin.com/in/manikanta-pavan-vennu1906" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-box-fill"></i> LinkedIn</a>
+                    <a href="mailto:manikantapavanv@gmail.com"><i class="ri-mail-line"></i> Send Email</a>
+                    <a href="tel:+917396870319"><i class="ri-phone-line"></i> Call Me</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../assets/images/cryptosphere-developer.jpg" alt="CryptoSphere - Engineered by Vennu Manikanta Pavan">
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <p>© 2024–2026 <strong>CryptoSphere</strong>. Designed &amp; Developed with passion by <strong>Vennu Manikanta Pavan</strong>.</p>
+            <p class="footer-sub">B.Tech CSE (AI &amp; ML) | CMR Institute of Technology, Hyderabad | <a href="tel:+917396870319">+91 7396870319</a> | <a href="mailto:manikantapavanv@gmail.com">manikantapavanv@gmail.com</a></p>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/Pavan-19190401" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="ri-github-line"></i></a>
+            <a href="https://linkedin.com/in/manikanta-pavan-vennu1906" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="ri-linkedin-line"></i></a>
+            <a href="mailto:manikantapavanv@gmail.com" aria-label="Send Email"><i class="ri-mail-line"></i></a>
+            <a href="tel:+917396870319" aria-label="Call"><i class="ri-phone-line"></i></a>
+        </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scrollTop" aria-label="Scroll to top"><i class="ri-arrow-up-s-line"></i></button>
+
+    <script src="../assets/js/global.js"></script>
+    <script src="../assets/js/dock.js"></script>
+</body>
+
+</html>

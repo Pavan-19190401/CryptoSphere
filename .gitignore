@@ -1,0 +1,16 @@
+# Dependencies and build outputs
+node_modules/
+.next/
+dist/
+build/
+
+# Nested unzipped duplicate folder
+Fullstack-Crypto-Marketplace-master/
+
+# OS and Editor metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
