@@ -1,10 +1,12 @@
 # CryptoSphere 🌐🚀
 ### Real-Time Cryptocurrency Marketplace & Analytics Platform
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-CryptoSphere-38bdf8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pavan-19190401.github.io/CryptoSphere/)
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-CryptoSphere-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://cryptosphere-orpin.vercel.app)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-CryptoSphere-38bdf8?style=for-the-badge&logo=githubpages&logoColor=white)](https://pavan-19190401.github.io/CryptoSphere/)
 [![GitHub](https://img.shields.io/badge/GitHub-Pavan--19190401-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pavan-19190401/CryptoSphere)
 
-**Live Deployment:** [https://pavan-19190401.github.io/CryptoSphere/](https://pavan-19190401.github.io/CryptoSphere/)
+- **Vercel Production URL:** [https://cryptosphere-orpin.vercel.app](https://cryptosphere-orpin.vercel.app)
+- **GitHub Pages URL:** [https://pavan-19190401.github.io/CryptoSphere/](https://pavan-19190401.github.io/CryptoSphere/)
 
 **CryptoSphere** is a modern, high-performance cryptocurrency intelligence and marketplace platform engineered by **Vennu Manikanta Pavan**. Built from the ground up, the platform features real-time cryptocurrency data streaming, dynamic market dominance tracking, TradingView charting integration, and an ultra-smooth macOS-inspired magnetic physics Dock navigation bar.
 
