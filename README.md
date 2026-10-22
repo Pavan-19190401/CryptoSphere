@@ -8,6 +8,10 @@
 - **Vercel Production URL:** [https://cryptosphere-orpin.vercel.app](https://cryptosphere-orpin.vercel.app)
 - **GitHub Pages URL:** [https://pavan-19190401.github.io/CryptoSphere/](https://pavan-19190401.github.io/CryptoSphere/)
 
+<p align="center">
+  <img src="assets/images/cryptosphere-thumbnail.jpg" alt="CryptoSphere Project Thumbnail" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+</p>
+
 **CryptoSphere** is a modern, high-performance cryptocurrency intelligence and marketplace platform engineered by **Vennu Manikanta Pavan**. Built from the ground up, the platform features real-time cryptocurrency data streaming, dynamic market dominance tracking, TradingView charting integration, and an ultra-smooth macOS-inspired magnetic physics Dock navigation bar.
 
 ---
